@@ -55,23 +55,23 @@ Esta aplicación conecta a mentores y aprendices para sesiones de aprendizaje pe
 
 ## Relaciones de Tablas
 
-1. User (Usuarios)
+1. User (Usuarios) :
 La tabla User almacena la información de cada usuario (mentor o aprendiz).
-Relacionado con: Mentorías, sesiones, mensajes y notificaciones.
+Relacionado con Mentorías, sesiones, mensajes y notificaciones.
 
-2. Mentorship (Relación Mentor-Aprendiz)
+2. Mentorship (Relación Mentor-Aprendiz) :
 Gestiona la relación entre un mentor y un aprendiz.
 Un mentor puede tener múltiples aprendices, y un aprendiz puede tener múltiples mentores.
 
-3. Session (Sesión de Aprendizaje)
+3. Session (Sesión de Aprendizaje) :
 Representa una sesión de aprendizaje entre un mentor y un aprendiz.
 Cada sesión está asociada a un mentor y un aprendiz, y puede tener múltiples mensajes.
 
-4. Message (Mensajes)
+4. Message (Mensajes) :
 Los mensajes se envían dentro de los chats entre mentor y aprendiz.
 Cada mensaje pertenece a un chat y tiene un emisor (usuario).
 
-5. Chat (Conversaciones)
+5. Chat (Conversaciones):
 Almacena las conversaciones entre mentor y aprendiz.
 Un chat puede contener múltiples mensajes.
 
